@@ -1,0 +1,103 @@
+/*
+0 - 600px:      Phone
+600 - 900px:    Tablet portrait
+900 - 1200px:   Tablet landscape
+[1200 - 1800] is where our normal styles apply
+1800px + :      Big desktop
+$breakpoint arguement choices:
+- phone
+- tab-port
+- tab-land
+- big-desktop
+
+Inside media queries 1em is always 16px i.e 1em = 16px at every screen size only inside media queries
+*/
+
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+*,
+*::after,
+*::before{
+    /* width: 100%; */
+    /* height: 100%; */
+    margin: 0;
+    padding: 0;
+    box-sizing:inherit;
+    font-family: inherit;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    
+    @media only screen and (max-width:75em){
+        html{
+            font-size: ;
+        }
+    }
+    @media only screen and (max-width:75em){
+        html{
+            font-size: 59%;
+            
+        }
+    }
+    @media only screen and (max-width:56.25em){
+        html{
+            font-size: 56%;
+            
+        }
+    }
+    @media only screen and (max-width:112.5em){
+        html{
+            font-size: 65%;
+            
+        }
+    }
+}
+
+body{
+    box-sizing: border-box;
+    position: relative;
+    line-height: 1.5;
+    font-family: sans-serif;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+li{
+    list-style: none;
+}
+
+input:focus,
+button:focus,
+a:focus,
+textarea:focus {
+  outline: none; }
+
+button {
+  border: none;
+  cursor: pointer; }
+
+textarea {
+  resize: none; }
+
+  
