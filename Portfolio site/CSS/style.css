@@ -91,13 +91,42 @@ input:focus,
 button:focus,
 a:focus,
 textarea:focus {
-  outline: none; }
+  outline: none; 
+}
 
 button {
   border: none;
-  cursor: pointer; }
+  cursor: pointer; 
+}
 
 textarea {
-  resize: none; }
+  resize: none;
+ }
 
-  
+ .heading-primary {
+  font-size: 6rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center; 
+}
+  @media only screen and (max-width: 37.5em) {
+    .heading-primary {
+      font-size: 4.5rem; } 
+    }
+
+.heading-sec__mb-bg {
+  margin-bottom: 11rem; 
+}
+  @media only screen and (max-width: 56.25em) {
+    .heading-sec__mb-bg {
+      margin-bottom: 8rem; } 
+    }
+
+.heading-sec__mb-med {
+  margin-bottom: 9rem; 
+}
+  @media only screen and (max-width: 56.25em) {
+    .heading-sec__mb-med {
+      margin-bottom: 8rem; } 
+    }
+
