@@ -1,0 +1,24 @@
+:root{
+    --main-color: #181818;
+    --seccond-color: rgb(228, 228, 228);
+    --purple: #2e016c;
+    --dark-purple: rgb(22 0 54);
+    --purple-bg: #19003c;
+    --ligth-purple: #610094;
+    --blue: #58ecff;
+    --hightlight-color: #00CBC7;
+    --gradient: 181deg, #000000 35%, #2e006e 100%;
+    --gradient-transparent: 181deg, #2e006e 50%,#000000c5  100%;
+    --glow-blue: drop-shadow(0 -1px 5px rgba(0, 212, 255, 1));
+    --green-terminal: rgb(0, 255, 102);
+    --yellow-terminal:rgb(182, 182, 3);
+    --pink-terminal:rgb(255, 0, 144);
+
+    --form-ok-color: #4caf50;
+    --form-error-color: #e81000;
+
+    /* Darktheme */
+    --pure-black: #000000;
+    --terminal-bg-dark: rgba(18, 0, 33, 0.734);
+    --icons-glow-dark: invert(100%) var(--glow-blue);
+}
